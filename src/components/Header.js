@@ -3,15 +3,31 @@ import React from "react";
 const Header = () => {
   return (
     <header className="container">
-      <div className="hamburgerLogo">
-        <img src="../images/hamburger menu icon.png" alt=""  width={35} height={25}/>
+      <div className="logo">
+        <img src="../images/logo.png" width={148} height={40} />
       </div>
       <nav>
-        <img src="../images/logo.png" width={148} height={40} alt="" />
+        <ul className="navElement">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Menu</a>
+          </li>
+          <li>
+            <a href="">Reservation</a>
+          </li>
+          <li>
+            <a href="">Order Online</a>
+          </li>
+          <li>
+            <a href="">Login</a>
+          </li>
+        </ul>
       </nav>
-      <div className="basketIcon">
-        <img src="../images/basket.png" alt="" width={46} height={44} />
-      </div>
     </header>
   );
 };

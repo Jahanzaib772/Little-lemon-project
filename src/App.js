@@ -2,7 +2,7 @@ import './App.css';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import HomeOrder from './components/Homeorder';
+import Specials from './components/Specials';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header/>
       <Main/>
-      {/* <HomeOrder/> */}
+      <Specials/>
       <Footer/> 
     </>
   );
